@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>FEM</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MathNet.Numerics" Version="6.0.0-beta1" />
+      <PackageReference Include="MathNet.Numerics.MKL.Win-x64" Version="3.0.0" />
+      <PackageReference Include="OxyPlot.Core" Version="2015.1.1046-alpha" />
+      <PackageReference Include="OxyPlot.WindowsForms" Version="2015.1.1046-alpha" />
+      <PackageReference Include="OxyPlot.Wpf" Version="2015.1.1046-alpha" />
+    </ItemGroup>
+
+</Project>
